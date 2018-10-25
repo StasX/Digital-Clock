@@ -1,0 +1,230 @@
+@media screen and (max-width: 720px){
+.clock{
+    width: 464px;
+    height: 240px;
+}
+.dig{
+    width: 192px;
+    height:160px;
+    top: 50px;
+}
+.dig:first-child{
+left: 40px;
+}
+.dig:last-child{
+right:40px;
+}
+.first-digit-vertical-left-top,.first-digit-vertical-right-top,.first-digit-horizontal-top,
+.second-digit-vertical-left-top,.second-digit-vertical-right-top,.second-digit-horizontal-top{
+    top: 16px;
+}
+.first-digit-vertical-left-top,.first-digit-vertical-left-bottom{
+    left: 16px;
+}
+.first-digit-vertical-right-top,.first-digit-vertical-right-bottom{
+    left: 72px;
+}
+.second-digit-vertical-right-top,.second-digit-vertical-right-bottom{
+    right: 16px;
+}
+.second-digit-vertical-left-top,.second-digit-vertical-left-bottom{
+    right: 72px;
+}
+.first-digit-vertical-left-bottom,.first-digit-vertical-right-bottom,
+.second-digit-vertical-left-bottom,.second-digit-vertical-right-bottom{
+    top: 80px;
+}
+.first-digit-horizontal-middle,.second-digit-horizontal-middle{
+    top:76px;
+}
+.first-digit-horizontal-bottom,.second-digit-horizontal-bottom{
+    top:136px;
+}
+.first-digit-horizontal-top,.first-digit-horizontal-middle,.first-digit-horizontal-bottom{
+    left:24px;
+}
+.second-digit-horizontal-top,.second-digit-horizontal-middle,.second-digit-horizontal-bottom{
+    right:24px;
+}
+.vertical{
+    height: 64px;
+    width: 8px;
+}
+.horizontal{
+    height: 8px;
+    width:48px;
+}
+}
+@media screen and (max-width: 640px){
+    .clock{
+        width:290px;
+        height:150px;
+    }
+    .dig{
+        top:25px;
+        width: 120px;
+        height:100px;
+    }
+    .dig:first-child{
+        left: 25px;
+    }
+    .dig:last-child{
+        right:25px;
+    }
+    .first-digit-vertical-left-top,.first-digit-vertical-right-top,.first-digit-horizontal-top,
+    .second-digit-vertical-left-top,.second-digit-vertical-right-top,.second-digit-horizontal-top{
+        top: 10px;
+    }
+    .first-digit-vertical-left-top,.first-digit-vertical-left-bottom{
+        left: 10px;
+    }
+    .first-digit-vertical-right-top,.first-digit-vertical-right-bottom{
+        left: 45px;
+    }
+    .second-digit-vertical-right-top,.second-digit-vertical-right-bottom{
+        right: 10px;
+    }
+    .second-digit-vertical-left-top,.second-digit-vertical-left-bottom{
+        right: 45px;
+    }
+    .first-digit-vertical-left-bottom,.first-digit-vertical-right-bottom,
+    .second-digit-vertical-left-bottom,.second-digit-vertical-right-bottom{
+        top: 50px;
+    }
+    .first-digit-horizontal-middle,.second-digit-horizontal-middle{
+        top:47.5px;
+    }
+    .first-digit-horizontal-bottom,.second-digit-horizontal-bottom{
+        top:85px;
+    }
+    .first-digit-horizontal-top,.first-digit-horizontal-middle,.first-digit-horizontal-bottom{
+        left:15px;
+    }
+    .second-digit-horizontal-top,.second-digit-horizontal-middle,.second-digit-horizontal-bottom{
+        right:15px;
+    }
+    .vertical{
+        height: 40px;
+        width: 5px;
+    }
+    .horizontal{
+        height: 5px;
+        width:30px;
+    }    
+}@media screen and (max-height:560px){
+    .clock{
+    width: 464px;
+    height: 240px;
+}
+.dig{
+    width: 192px;
+    height:160px;
+    top: 50px;
+}
+.dig:first-child{
+left: 40px;
+}
+.dig:last-child{
+right:40px;
+}
+.first-digit-vertical-left-top,.first-digit-vertical-right-top,.first-digit-horizontal-top,
+.second-digit-vertical-left-top,.second-digit-vertical-right-top,.second-digit-horizontal-top{
+    top: 16px;
+}
+.first-digit-vertical-left-top,.first-digit-vertical-left-bottom{
+    left: 16px;
+}
+.first-digit-vertical-right-top,.first-digit-vertical-right-bottom{
+    left: 72px;
+}
+.second-digit-vertical-right-top,.second-digit-vertical-right-bottom{
+    right: 16px;
+}
+.second-digit-vertical-left-top,.second-digit-vertical-left-bottom{
+    right: 72px;
+}
+.first-digit-vertical-left-bottom,.first-digit-vertical-right-bottom,
+.second-digit-vertical-left-bottom,.second-digit-vertical-right-bottom{
+    top: 80px;
+}
+.first-digit-horizontal-middle,.second-digit-horizontal-middle{
+    top:76px;
+}
+.first-digit-horizontal-bottom,.second-digit-horizontal-bottom{
+    top:136px;
+}
+.first-digit-horizontal-top,.first-digit-horizontal-middle,.first-digit-horizontal-bottom{
+    left:24px;
+}
+.second-digit-horizontal-top,.second-digit-horizontal-middle,.second-digit-horizontal-bottom{
+    right:24px;
+}
+.vertical{
+    height: 64px;
+    width: 8px;
+}
+.horizontal{
+    height: 8px;
+    width:48px;
+}
+}
+@media screen  and (max-height:360px){
+     .container{
+         top:35px;
+     }
+    .clock{
+        width:290px;
+        height:150px;
+    }
+    .dig{
+        top:25px;
+        width: 120px;
+        height:100px;
+    }
+    .dig:first-child{
+        left: 25px;
+    }
+    .dig:last-child{
+        right:25px;
+    }
+    .first-digit-vertical-left-top,.first-digit-vertical-right-top,.first-digit-horizontal-top,
+    .second-digit-vertical-left-top,.second-digit-vertical-right-top,.second-digit-horizontal-top{
+        top: 10px;
+    }
+    .first-digit-vertical-left-top,.first-digit-vertical-left-bottom{
+        left: 10px;
+    }
+    .first-digit-vertical-right-top,.first-digit-vertical-right-bottom{
+        left: 45px;
+    }
+    .second-digit-vertical-right-top,.second-digit-vertical-right-bottom{
+        right: 10px;
+    }
+    .second-digit-vertical-left-top,.second-digit-vertical-left-bottom{
+        right: 45px;
+    }
+    .first-digit-vertical-left-bottom,.first-digit-vertical-right-bottom,
+    .second-digit-vertical-left-bottom,.second-digit-vertical-right-bottom{
+        top: 50px;
+    }
+    .first-digit-horizontal-middle,.second-digit-horizontal-middle{
+        top:47.5px;
+    }
+    .first-digit-horizontal-bottom,.second-digit-horizontal-bottom{
+        top:85px;
+    }
+    .first-digit-horizontal-top,.first-digit-horizontal-middle,.first-digit-horizontal-bottom{
+        left:15px;
+    }
+    .second-digit-horizontal-top,.second-digit-horizontal-middle,.second-digit-horizontal-bottom{
+        right:15px;
+    }
+    .vertical{
+        height: 40px;
+        width: 5px;
+    }
+    .horizontal{
+        height: 5px;
+        width:30px;
+    }  
+}
